@@ -103,7 +103,7 @@ getProfilesBtn.addEventListener("click", () => {
         <p><strong>${person.lovesWinter ? "Loves winter!" : "Prefers summer"}</strong></p>
         `
 
-        //Alternativ 1
+        //Alternativ 1 - Paragraph + innerText
         // let paragraph = document.createElement("p");
         // paragraph.innerText = `
         // Name: ${person.name}
